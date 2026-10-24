@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Adventure Park Challenge Webpage</title>
+        <link rel="Stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <style>
+            body {
+                background: linear-gradient(to right, #071B33 , #164E78 , #167D9A);
+                font-family: 'Trebuchet MS', sans-serif;
+                color: white;
+                text-align: center;
+            }
+
+            h1 {
+                color: #FF7A18;
+                font-size: 50px;
+                font-weight: bold;
+                text-shadow: 3px 3px #04111F;
+
+            }
+
+            .intro {
+                color: white;
+                font-size: 20px;
+            }
+
+            .display-1 {
+                color: #FF7A18;
+            }
+
+            .display-2 {
+                color: #FFD43B;
+            }
+
+            .display-3 {
+                color: #63D8FF;
+            }
+
+            .display-4 {
+                color: #85e7b1;
+            }
+ 
+            .adventure-box {
+                background-color: #EAF6FF;
+                color: #12314a;
+                border: 3px solid #041421;
+                box-shadow: 5px 3px #000b14;
+                padding: 5px;
+                margin: 10px;
+                border-radius: 15px;
+            }
+
+            h3 {
+                color: #164e78;
+            }
+
+            h2 {
+                color: #12314a;
+            }
+
+            small {
+                color: #526A7D;
+            }
+
+            dt {
+                color: #164e78;
+                font-size: 20px;
+            }
+
+            mark {
+                background-color: #FFD43B;
+                color: #071b33;
+                padding: 6px 7px;
+                border-radius: 25px;
+                font-style: italic;
+            }
+
+            code {
+                background-color: #12314A;
+                color: #FFB36B;
+                padding: 4px 7px;
+                border-radius: 5px;
+                font-size: 15px;
+            }
+
+            abbr {
+                text-decoration: underline ;
+                cursor: help;
+            }
+
+            pre {
+                background-color: #12314a;
+                color: #b7f7d4;
+                border: 3px solid #FF7A18;
+                border-radius: 50px;
+                padding: 5px;
+                margin: 5px;
+            }
+
+            blockquote {
+                background-color: #FFF3D6;
+                color: #12314A;
+                border-left: 6px solid #FF7A18;
+                border-radius: 3px;
+                padding: 18px;
+                margin: 0;
+                font-size: 18px;
+                font-style: italic;
+                line-height: 1.7;
+            }
+
+            .img {
+                height: 225px;
+                width: 250px;
+                animation: rotate 3s alternate infinite;
+                border-radius: 20px;
+            }
+
+            @keyframes rotate {
+                from {
+                    transform: rotate(15deg);
+                }
+                to {
+                    transform: rotate(-15deg);
+                }
+            }
+        
+        </style>
+    </head>
+
+    <body>
+        <h1> Welcome To My Adventure Park Challenge</h1>
+        <p class="intro">Get ready to conquer daring trails, decode mystery missions, and test your courage in the ultimate adventure zone!</p>
+        <br>
+        <img class="img" src="Adventure Park Challenge Welcome Sign.png" alt="Adventure Park Logo">
+        <br>
+        <br>
+        <div class="container-fluid my-4">
+
+            <section class="adventure-box">
+                <h2>Meet the Adventure Levels🏆</h2>
+
+                <p class="display-1">Extreme Explorer</p>
+                <p class="display-2">Mountain Conqueror</p>
+                <p class="display-3">Mystery Trail Tracker</p>
+                <p class="display-4">Junior Quest Master</p>
+            </section>
+
+            <section class="adventure-box">
+                <h2>Adventurer's Passes🎟️ </h2>
+
+                <h3>Janvi 
+                    <small>Pass: Extreme Explorer | Level 4</small>
+                </h3> 
+
+                <h3>Chahat
+                    <small>Pass: Mountain Conqueror | Level 3</small>
+                </h3>
+
+                <h3>Alfiya
+                    <small>Pass: Mystery Trail Tracker | Level 2</small>
+                </h3>
+            </section>
+
+            <section class="adventure-box">
+                <h2>🧭 Explore the Challenge Zone</h2>
+
+                <dl>
+                <dt>⚡ Thunder Loop</dt>
+                <dd>
+                    Race through twisting turns and sharp drops
+                    in an exciting high-speed coaster challenge.
+                </dd>
+
+                <dt>🧗 Summit Climb</dt>
+                <dd>
+                    Navigate a climbing wall and reach the summit
+                    using balance, strength, and careful planning.
+                </dd>
+
+                <dt>🔐 The Lost Compass</dt>
+                <dd>
+                    Solve coded clues and follow hidden markers
+                    to uncover the secret treasure checkpoint.
+                </dd>
+
+                <dt>🌉 Sky Bridge Mission</dt>
+                <dd>
+                    Cross a suspended bridge with a trained guide
+                    and complete the balance-and-focus challenge.
+                </dd>
+            </dl>
+            </section>
+
+            <section class="adventure-box">
+                <h2>🚨 Mission Alert</h2>
+
+                <p><mark>All challengers must attend the safety briefing before entering the adventure zones.</mark></p>
+
+                <p>Your first mission command is <code>START_QUEST()</code>. Enter the command in the challenge terminal to reveal your first clue.</p>
+            </section>
+
+            <section class="adventure-box">
+                <h2>🛡️ Safety Mission</h2>
+
+                <p>The <abbr title="Adventure Prk Security Team">APST</abbr>ensures the proprer functioning of every level, so you don't miss your enjoyment!</p>
+            </section>
+
+            <section class="adventure-box">
+                <h2>⏱️ The Ultimate Challenge Schedule</h2>
+
+                <pre>
+                    09:00 AM  - Mission briefing and team registration
+                    10:00 AM  - Thunder Loop challenge
+                    11:15 AM  - Summit Climb checkpoint
+                    12:30 PM  - Lost Compass mystery mission
+                    02:00 PM  - Sky Bridge team challenge
+                    03:30 PM  - Final Quest and award ceremony</pre>
+            </section>
+
+            <section class="adventure-box">
+                <h2>💬 Adventurer's Motto</h2>
+
+                <blockquote>"The greatest adventure begins when curiosity leads the way. Think boldly, work as a team, respect nature, and never stop exploring!"</blockquote>
+            </section>
+        </div>
+    </body>
+</html>
